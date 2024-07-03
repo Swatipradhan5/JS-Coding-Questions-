@@ -1,7 +1,7 @@
 let fibonacciSeries = function (n) {
 
     //2nd approach using recursion : beats 30% soln in TC, as recursion takes more time
-
+    //TC : O(2 pow N)
     if (n<=1) return n;
     
     return fibonacciSeries(n-1)+fibonacciSeries(n-2);
